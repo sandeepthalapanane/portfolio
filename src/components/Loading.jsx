@@ -18,7 +18,7 @@ const Loading = ({isLoading}) => {
               <img
                 src={parthmittal}
                 alt="Sandeep Thalapanane"
-                className="w-[80px] h-[80px]"
+                className="w-[80px] h-[50px]"
               />
           </motion.div>
         )
