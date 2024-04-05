@@ -226,6 +226,46 @@ export const skills = [
     title: "Tools",
     items: [
       {
+        id: "t-1",
+        icon: SiUnity,
+        name: "Unity",
+      },
+      {
+        id: "t-2",
+        icon: SiDocker,
+        name: "Docker",
+      },
+      {
+        id: "t-8",
+        icon: SiRos,
+        name: "ROS 1 & 2",
+      },
+      {
+        id: "t-9",
+        icon: SiLinux,
+        name: "Linux",
+      },
+      {
+        id: "t-10",
+        icon: SiGrafana,
+        name: "Grafana",
+      },
+      {
+        id: "t-11",
+        icon: SiRaspberrypi,
+        name: "Raspberry Pi",
+      },
+      {
+        id: "t-13",
+        icon: SiGnubash,
+        name: "Bash",
+      },
+      {
+        id: "t-12",
+        icon: SiMicrosoftexcel,
+        name: "Microsoft Excel",
+      },
+      {
         id: "t-3",
         icon: SiVisualstudiocode,
         name: "VS Code",
@@ -253,6 +293,7 @@ export const skills = [
     ],
   },
 ];
+
 
 export const experiences = [
   {
