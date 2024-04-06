@@ -94,7 +94,11 @@ import {
   SiGrafana,
   SiGnubash,
   SiRaspberrypi,
-  SiMicrosoftexcel
+  SiMicrosoftexcel,
+  SiRakuten,
+  SiMojangstudios,
+  SiMaas,
+  SiMapbox
 } from "react-icons/si";
 
 import {
@@ -104,6 +108,7 @@ import {
 import {
   IoIosNotificationsOutline
 } from "react-icons/io";
+
 
 import { DiCss3, DiJava, DiMsqlServer, DiRuby } from "react-icons/di";
 
@@ -180,11 +185,11 @@ export const skills = [
         icon: SiCsharp, 
         name: "C#",
       },
-    //   {
-    //     id: "pl-4", // Unique identifier for Matlab
-    //     icon: DiRvix, // Use the imported Matlab icon
-    //     name: "Matlab", // Correct name to "Matlab"
-    //  },
+      {
+        id: "pl-4", // Unique identifier for Matlab
+        icon: SiVite, // Use the imported Matlab icon
+        name: "Matlab", // Correct name to "Matlab"
+     },
     
     ],
   },
@@ -297,6 +302,16 @@ export const skills = [
         icon: SiVisualstudio,
         name: "Visual Studio",
       },
+      {
+        id: "t-14",
+        icon: SiGatsby,
+        name: "Gazebo",
+      },
+      {
+        id: "t-15",
+        icon: SiRakuten,
+        name: "Rviz",
+      },
     ],
   },
 ];
@@ -402,6 +417,11 @@ export const projects = [
         icon: SiTensorflow,
         name: "Tensorflow"
       },
+      {
+        id: "icon-3",
+        icon: SiMapbox,
+        name: "Mujoco"
+      },
     ],
   },
   {
@@ -502,7 +522,7 @@ export const projects = [
       },
       {
         id: "icon-3",
-        icon: SiGatsby,
+        icon: SiRakuten,
         name: "RViz"
       },
     ],
@@ -559,7 +579,7 @@ export const projects = [
         },
         {
           id: "icon-3",
-          icon: SiGatsby,
+          icon: SiRakuten,
           name: "RViz"
         },
       ],
@@ -575,7 +595,7 @@ export const projects = [
     stack: [
       {
         id: "icon-1",
-        icon: SiReact,
+        icon: SiVite,
         name: "Matlab"
       },
     ],
@@ -712,11 +732,11 @@ export const socialMedia = [
     icon: AiFillLinkedin,
     link: "https://www.linkedin.com/in/sandeep-thalapanane/",
   },
-  {
-    id: "social-media-2",
-    icon: AiFillGithub,
-    link: "https://github.com/sandeepthalapanane",
-  },
+  // {
+  //   id: "social-media-2",
+  //   icon: AiFillGithub,
+  //   link: "https://github.com/sandeepthalapanane",
+  // },
   {
     id: "social-media-3",
     icon: AiFillMail,
