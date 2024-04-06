@@ -88,6 +88,13 @@ import {
   SiGatsby,
   SiPointy,
   SiDropbox,
+  SiUnity, 
+  SiDocker,
+  SiLinux,
+  SiGrafana,
+  SiGnubash,
+  SiRaspberrypi,
+  SiMicrosoftexcel
 } from "react-icons/si";
 
 import {
@@ -175,7 +182,7 @@ export const skills = [
       },
     //   {
     //     id: "pl-4", // Unique identifier for Matlab
-    //     icon: Matlab, // Use the imported Matlab icon
+    //     icon: DiRvix, // Use the imported Matlab icon
     //     name: "Matlab", // Correct name to "Matlab"
     //  },
     
