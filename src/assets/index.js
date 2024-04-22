@@ -47,7 +47,7 @@ import oracle from "./oracle.jpg";
 import comicify_ai from "./comicify-ai.png";
 import greentrust from "./green_trust.png";
 import anna from "./anna.png";
-import cancer from "./cancer.jpg";
+import cancer from "./Cancer.jpg";
 import reco from "./reco.jpg";
 
 export {
