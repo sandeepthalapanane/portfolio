@@ -24,7 +24,7 @@ import {
   huntly,
   oracle,
   comicify_ai,
-  greentrust
+  greentrust, cancer, reco
 } from "../assets";
 
 import { Matlab } from '../components/icons';
@@ -98,7 +98,10 @@ import {
   SiRakuten,
   SiMojangstudios,
   SiMaas,
-  SiMapbox
+  SiMapbox,
+  SiMicrosoftazure,
+  SiAmazonaws,
+  SiAmazons3
 } from "react-icons/si";
 
 import {
@@ -312,6 +315,16 @@ export const skills = [
         icon: SiRakuten,
         name: "Rviz",
       },
+      {
+        id: "t-16",
+        icon: SiMicrosoftazure,
+        name: "Azure Machine learning",
+      },
+      {
+        id: "t-17",
+        icon: SiAmazonaws,
+        name: "AWS Sagemaker",
+      },
     ],
   },
 ];
@@ -374,7 +387,7 @@ export const projects = [
     link: "",
     image: comicify_ai,
     content:
-      "Formulated a 3D NeRF inspection pipeline based on HF-NeuS (SDF) & Deep Crack for 3D reconstruction of surface & crack segmentation, improved HF-NeuS with two additional losses to reduce training time.",
+      "Formulated a 3D NeRF inspection pipeline based on HF-NeuS (SDF) & diffusion-based model for 3D reconstruction of surface and crack segmentation respectively, improved HF-NeuS with two additional losses to reduce training time.",
     stack: [
       {
         id: "icon-1",
@@ -395,6 +408,58 @@ export const projects = [
         id: "icon-4",
         icon: SiOpencv,
         name: "OpenCV"
+      },
+    ],
+  },
+  {
+    id: "project-10",
+    title: "Brain Cancer Dataset Augmentation",
+    github: "",
+    link: "",
+    image: cancer,
+    content:
+      "Developed a Generative Adversarial Network (GAN) based AI model to generate synthetic brain cancer images, to expand training datasets, and used Likeness Score with Distance-based Separability Index to assess generated image quality.",
+    stack: [
+      {
+        id: "icon-1",
+        icon: SiPython,
+        name: "Python"
+      },
+      {
+        id: "icon-2",
+        icon: SiTensorflow,
+        name: "TensorFlow"
+      },
+      {
+        id: "icon-3",
+        icon: SiKeras,
+        name: "Keras"
+      },
+    ],
+  },
+  {
+    id: "project-9",
+    title: "Personalized Movie Recommendation System",
+    github: "",
+    link: "",
+    image: reco,
+    content:
+      "Engineered and deployed a production movie recommender using MLOps & a CI/CD pipeline on AWS. Trained an LLM recommendation model with collaborative & content-based filtering for personalized suggestions.",
+    stack: [
+      {
+        id: "icon-1",
+        icon: SiPython,
+        name: "Python"
+      },
+      {
+        id: "icon-2",
+        icon: SiAmazonaws,
+        name: "AWS"
+      },
+      {
+        id: "icon-3",
+        icon: SiAmazons3,
+        name: "S3"
       },
     ],
   },
