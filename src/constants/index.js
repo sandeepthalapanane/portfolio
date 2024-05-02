@@ -383,7 +383,7 @@ export const projects = [
   {
     id: "project-1",
     title: "3D Inspection Using NeuS",
-    github: "",
+    github: "https://github.com/sandeepthalapanane/3D-Inspection-Using-NeuS",
     link: "",
     image: comicify_ai,
     content:
