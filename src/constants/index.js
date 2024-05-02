@@ -414,7 +414,7 @@ export const projects = [
   {
     id: "project-10",
     title: "Brain Cancer Dataset Augmentation",
-    github: "",
+    github: "https://github.com/sandeepthalapanane/Brain-Cancer-Dataset-Augmentation",
     link: "",
     image: cancer,
     content:
@@ -440,7 +440,7 @@ export const projects = [
   {
     id: "project-9",
     title: "Personalized Movie Recommendation System",
-    github: "",
+    github: "https://github.com/sandeepthalapanane/Personalized-Movie-Recommendation-System",
     link: "",
     image: reco,
     content:
