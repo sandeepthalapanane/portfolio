@@ -496,7 +496,7 @@ export const projects = [
     link: "",
     image: chargeswap,
     content:
-      "Enhanced the underwater image visibility by restoring true colors using an innovative image processing pipeline. Leveraged a physics-based approach and a deep learning neural network model to estimate depth and counteract light scattering caused by water.",
+      "Enhanced underwater image visibility by restoring true colors using an innovative image processing pipeline. Leveraged a physics based approach and a deep learning neural network model to estimate depth and counteract light scattering caused by water.",
     stack: [
       {
         id: "icon-1",
@@ -766,7 +766,7 @@ export const extraCurricular = [
         link: "",
       },
       {
-        text: "Achieved enhanced path planning for AVs & and increased safety using LSTM to predict driving styles & nearby vehicle trajectories.",
+        text: "Achieved enhanced path planning for AVs & and increased safety using LSTM  and QCNet to predict driving styles & nearby vehicle trajectories respectively.",
         link: "",
       },
       
