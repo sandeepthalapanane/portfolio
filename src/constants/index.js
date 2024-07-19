@@ -332,6 +332,39 @@ export const skills = [
 
 export const experiences = [
   {
+    organisation: "University of Maryland",
+    logo: nitk,
+    link: "https://gamma.umd.edu/traverse",
+    positions: [
+      {
+        title: "Research Associate - Computer vision",
+        duration: "Sept 2023 - Present",
+        content: [
+          {
+            text: "Designed a novel Virtual Reality driving simulator using Unity, SUMO, Matlab RoadRunner, and Meta VR.",
+            link: "",
+          },
+          {
+            text: "Reduced immersive driving simulator cost by 98.8% to make it accessible for $2,500, enabling cost-effective driving research.",
+            link: "",
+          },
+          {
+            text: "Achieved enhanced path planning for AVs & and increased safety using QCNet to predict driving styles & vehicle trajectories.",
+            link: "",
+          },
+          {
+            text: "Leveraged VR simulation to conduct a VR user study of accident scenarios, capturing participant interactions.",
+            link: "",
+          },
+          {
+            text: " Employing sim-to-real image translation to the captured interactions by applying the style of the real world to simulated images.",
+            link: "",
+          },
+        ],
+      },
+    ],
+  },
+  {
     organisation: "TRC Robotics",
     logo: oracle,
     link: "",
@@ -752,27 +785,6 @@ export const stats = [
 ];
 
 export const extraCurricular = [
-  {
-    organisation: "Gamma lab - UMD",
-    title: "Driving style conditioned for autonomous vehicles",
-    duration: "Aug 2023 - Present",
-    content: [
-      {
-        text: "Designed a novel Virtual Reality driving simulator using Unity, SUMO, and RoadRunner. (Working for NeurIPS conference)",
-        link: "",
-      },
-      {
-        text: "Reduced immersive driving simulator cost by 98.8% to make it accessible for $2,500, enabling cost-effective driving research.",
-        link: "",
-      },
-      {
-        text: "Achieved enhanced path planning for AVs & and increased safety using LSTM  and QCNet to predict driving styles & nearby vehicle trajectories respectively.",
-        link: "",
-      },
-      
-    ],
-    logo: nitk,
-  },
   {
     organisation: "Multiscale Measurements lab - UMD",
     title: "Research Assistant",
