@@ -349,11 +349,11 @@ export const experiences = [
             link: "",
           },
           {
-            text: "Achieved enhanced path planning for AVs & and increased safety using QCNet to predict driving styles & vehicle trajectories.",
+            text: " Leveraged VR simulation to conduct a VR user study of accident scenarios, capturing participant interactions and curating a dataset.",
             link: "",
           },
           {
-            text: "Leveraged VR simulation to conduct a VR user study of accident scenarios, capturing participant interactions.",
+            text: "Achieved enhanced path planning for AVs & and increased safety using UniTraj to predict driving behaviors & vehicle trajectories.",
             link: "",
           },
           {
@@ -399,7 +399,7 @@ export const experiences = [
             link: "",
           },
           {
-            text: "Streamlined coordination and collaboration with vendors and suppliers from all parts of the world through swift & constant communication, and achieved inventory target of $1 million.",
+            text: "Streamlined coordination and collaboration with customers and suppliers from all parts of the world through swift & constant communication, and achieved inventory target of $1 million.",
             link: "",
           },
         ],
@@ -795,7 +795,7 @@ export const extraCurricular = [
         link: "",
       },
       {
-        text: "Conducted research to identify and analyze speckle patterns using a microscopic camera lens for biomechanical 3D DIC purposes.",
+        text: "Pioneered a synthetic dataset through mathematical deformation, enabling the training of an ML model for DIC strain analysis.",
         link: "",
       },
     ],
@@ -829,5 +829,5 @@ export const socialMedia = [
 export const aboutMe = {
     name: "Sandeep Thalapanane",
     tagLine: "Robotics Graduate Student at University of Maryland, College Park | Graduate Research Assistant at University of Maryland ",
-    intro: "A robotics enthusiast, leveraging expertise in computer vision and machine learning to engineer groundbreaking solutions for tomorrow's autonomous systems."
+    intro: "A robotics enthusiast, leveraging expertise in computer vision and machine learning to engineer groundbreaking solutions for tomorrow's autonomous systems. I'm seeking full-time positions in robotics, machine learning, computer vision, and autonomous vehicles, and I am open to relocation."
 }
