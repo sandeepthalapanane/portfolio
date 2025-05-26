@@ -12,7 +12,8 @@ import {
   OpenSource,
   Projects,
   BlogPosts,
-  Loading
+  Loading,
+  Publications
 } from "./components";
 
 const App = () => {
@@ -54,6 +55,7 @@ const App = () => {
             <SkillsAndExperience />
             <Education />
             <Projects />
+            <Publications />
             <BlogPosts enabled={false} />
             <OpenSource enabled={false} />
             <ExtraCurricular enabled={true} />

@@ -134,10 +134,10 @@ export const navLinks = [
     id: "projects",
     title: "Projects",
   },
-  // {
-  //   id: "openSource",
-  //   title: "Open Source",
-  // },
+  {
+    id: "publications",
+    title: "Publications",
+  },
   {
     id: "extraCurricular",
     title: "Research Experience",
@@ -894,3 +894,21 @@ export const aboutMe = {
     tagLine: "Robotics Graduate Student at University of Maryland, College Park | Graduate Research Assistant at University of Maryland ",
     intro: "A robotics enthusiast, leveraging expertise in computer vision and machine learning to engineer groundbreaking solutions for tomorrow's autonomous systems. I'm seeking full-time positions in robotics, machine learning, computer vision, and autonomous vehicles, and I am open to relocation."
 }
+
+export const publications = [
+  {
+    title: "DISC: Dataset for Analyzing Driving Styles In Simulated Crashes for Mixed Autonomy",
+    conference: "IEEE International Conference on Robotics and Automation (ICRA) 2025",
+    link: "http://arxiv.org/abs/2502.00050",
+  },
+  {
+    title: "Quantifying and Modeling Driving Styles in Trajectory Forecasting",
+    conference: "International Conference on Intelligent Robots and Systems (IROS) 2025",
+    link: "https://arxiv.org/abs/2308.12345",
+  },
+  {
+    title: "TRAVERSE - Traffic-Responsive Autonomous Vehicle Experience \& Rare-event Simulation for Enhanced Safety",
+    conference: "International Conference on Intelligent Robots and Systems (IROS) 2024",
+    link: "https://ieeexplore.ieee.org/document/10802298",
+  },
+];
