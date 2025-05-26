@@ -24,7 +24,7 @@ import {
   huntly,
   oracle,
   comicify_ai,
-  greentrust, cancer, reco
+  greentrust, cancer, reco, telos, causify, nethermind
 } from "../assets";
 
 import { Matlab } from '../components/icons';
@@ -156,7 +156,7 @@ export const educationList = [
     degree: "Master of Engineering",
     duration: "August 2022 - May 2024",
     content1: "Branch: Robotics",
-    content2: "CGPA: 3.96/4",
+    content2: "CGPA: 3.97/4",
   },
   {
     id: "education-2",
@@ -331,6 +331,69 @@ export const skills = [
 
 
 export const experiences = [
+  {
+    organisation: "Telos Health",
+    logo: telos,
+    link: "",
+    positions: [
+      {
+        title: "Software Engineer, Machine Learning Intern",
+        duration: "May 2025 - Present",
+        content: [
+          {
+            text: "Engineered realistic medical simulations of heart-catheter interactions using the SOFA simulator.",
+            link: "",
+          },
+          {
+            text: "Leveraged GAN-based style transfer to produce synthetic fluoroscopic videos, significantly enhancing accuracy in temporal catheter tracking models.",
+            link: "",
+          },
+        ],
+      },
+    ],
+  },
+  {
+    organisation: "Causify",
+    logo: causify,
+    link: "",
+    positions: [
+      {
+        title: "Software Engineer Intern",
+        duration: "Mar 2025 - Present",
+        content: [
+          {
+            text: "Streamlined deployment processes by developing dockerized workflows, which significantly enhanced reliability & consistency across all environments.",
+            link: "",
+          },
+          {
+            text: "Developed GitHub automation scripts to sync labels and secure repositories, containerizing these processes to enhance DevOps workflow efficiency.",
+            link: "",
+          },
+        ],
+      },
+    ],
+  },
+  {
+    organisation: "Nethermind",
+    logo: nethermind,
+    link: "",
+    positions: [
+      {
+        title: "Machine Learning Intern",
+        duration: "Mar 2025 - May 2025",
+        content: [
+          {
+            text: "Conducted research on diverse imaging setups, including stereo, infrared, wide-angle, & fisheye lenses for palm vein biometrics & integrated infrared dot projection for precise 3D reconstruction.",
+            link: "",
+          },
+          {
+            text: "Implemented a MobileNet-based segmentation model tailored for palm vein biometrics, significantly improving accuracy & speed.",
+            link: "",
+          },
+        ],
+      },
+    ],
+  },
   {
     organisation: "University of Maryland",
     logo: nitk,

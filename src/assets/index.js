@@ -49,6 +49,9 @@ import greentrust from "./green_trust.png";
 import anna from "./anna.png";
 import cancer from "./Cancer.jpg";
 import reco from "./reco.jpg";
+import telos from "./telos.jpeg";
+import causify from "./causify.jpeg";
+import nethermind from "./nethermind.jpeg";
 
 export {
   airbnb,
@@ -101,5 +104,8 @@ export {
   greentrust,
   anna,
   cancer,
-  reco
+  reco,
+  telos,
+  causify,
+  nethermind,
 };
