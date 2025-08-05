@@ -338,35 +338,10 @@ export const experiences = [
     positions: [
       {
         title: "Software Engineer, Machine Learning Intern",
-        duration: "May 2025 - Present",
+        duration: "May 2025 - July 2025",
         content: [
           {
             text: "Engineered realistic medical simulations of heart-catheter interactions using the SOFA simulator.",
-            link: "",
-          },
-          {
-            text: "Leveraged GAN-based style transfer to produce synthetic fluoroscopic videos, significantly enhancing accuracy in temporal catheter tracking models.",
-            link: "",
-          },
-        ],
-      },
-    ],
-  },
-  {
-    organisation: "Causify",
-    logo: causify,
-    link: "",
-    positions: [
-      {
-        title: "Software Engineer Intern",
-        duration: "Mar 2025 - Present",
-        content: [
-          {
-            text: "Streamlined deployment processes by developing dockerized workflows, which significantly enhanced reliability & consistency across all environments.",
-            link: "",
-          },
-          {
-            text: "Developed GitHub automation scripts to sync labels and secure repositories, containerizing these processes to enhance DevOps workflow efficiency.",
             link: "",
           },
         ],
