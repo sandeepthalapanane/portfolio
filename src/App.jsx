@@ -13,7 +13,6 @@ import {
   Projects,
   BlogPosts,
   Loading,
-  Publications
 } from "./components";
 
 const App = () => {
