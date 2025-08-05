@@ -135,10 +135,6 @@ export const navLinks = [
     title: "Projects",
   },
   {
-    id: "publications",
-    title: "Publications",
-  },
-  {
     id: "extraCurricular",
     title: "Research Experience",
   },
